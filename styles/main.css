@@ -1,4 +1,86 @@
+:root {
+  /* Font variables */
+  --text-preset-1-font-family:
+    "Rubik-light", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --text-preset-1-font-size: 5.6rem;
+  --text-preset-1-line-height: 6.6rem;
+  --text-preset-1-letter-spacing: 0rem;
 
+  --text-preset-2-font-family:
+    "Rubik-light", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --text-preset-2-font-size: 4rem;
+  --text-preset-2-line-height: 4.7rem;
+  --text-preset-2-letter-spacing: 0rem;
+
+  --text-preset-3-font-family:
+    "Rubik-light", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --text-preset-3-font-size: 3.2rem;
+  --text-preset-3-line-height: 3.8rem;
+  --text-preset-3-letter-spacing: 0rem;
+
+  --text-preset-4-font-family:
+    "Rubik-light", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --text-preset-4-font-size: 2.4rem;
+  --text-preset-4-line-height: 2.8rem;
+  --text-preset-4-letter-spacing: 0rem;
+
+  --text-preset-5-medium-font-family:
+    "Rubik-medium", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --text-preset-5-medium-font-size: 1.8rem;
+  --text-preset-5-medium-line-height: 2.1rem;
+  --text-preset-5-medium-letter-spacing: 0rem;
+
+  --text-preset-5-regular-font-family:
+    "Rubik-regular", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --text-preset-5-regular-font-size: 1.8rem;
+  --text-preset-5-regular-line-height: 2.1rem;
+  --text-preset-5-regular-letter-spacing: 0rem;
+
+  --text-preset-6-font-family:
+    "Rubik-regular", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --text-preset-6-font-size: 1.5rem;
+  --text-preset-6-line-height: 1.8rem;
+  --text-preset-6-letter-spacing: 0rem;
+
+  /* Color variables */
+  --color-white: hsl(0, 100%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-navy-950: hsl(226, 43%, 10%);
+  --color-navy-900: hsl(235, 46%, 20%);
+  --color-navy-800: hsl(235, 41%, 34%);
+  --color-navy-200: hsl(236, 100%, 87%);
+  --color-orange-300: hsl(15, 100%, 70%);
+  --color-purple-700: hsl(264, 64%, 52%);
+  --color-purple-600: hsl(264, 80%, 60%);
+  --color-purple-500: hsl(235, 45%, 61%);
+  --color-blue-300: hsl(195, 74%, 62%);
+  --color-pink-400: hsl(348, 100%, 68%);
+  --color-green-400: hsl(145, 58%, 55%);
+  --color-yellow-300: hsl(43, 84%, 65%);
+  --color-grey-200: hsl(0, 0%, 85%);
+  /* Spacing variables */
+  --spacing-0: 0rem;
+  --spacing-100: 0.8rem;
+  --spacing-200: 1.6rem;
+  --spacing-300: 2.4rem;
+  --spacing-400: 3.2rem;
+  --spacing-500: 4rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+
+}
 
 .footer {
   .attribution {
