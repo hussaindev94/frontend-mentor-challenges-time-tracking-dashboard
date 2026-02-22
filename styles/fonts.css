@@ -1,0 +1,21 @@
+/* Rubik light */
+@font-face {
+    font-family: "Rubik-light";
+    src: url("../font/Rubik-Light.ttf");
+    font-weight: 300;
+    font-display: swap;
+}
+/* Rubik regular */
+@font-face {
+    font-family: "Rubik-regular";
+    src: url("../font/Rubik-Regular.ttf");
+    font-weight: 400;
+    font-display: swap;
+}
+/* Rubik medium */
+@font-face {
+    font-family: "Rubik-medium";
+    src: url("../font/Rubik-Medium.ttf");
+    font-weight: 500;
+    font-display: swap;
+}
