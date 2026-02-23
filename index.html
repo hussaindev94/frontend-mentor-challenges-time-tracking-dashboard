@@ -7,11 +7,11 @@
 
   <!-- Loading Font files -->
    <!-- Rubik light 300-->
-  <link rel="preload" type="font/ttf" href="./font/Rubik-Light.ttf"  crossorigin="anonymous">
+  <link rel="preload" type="font/ttf" as="font" href="./font/Rubik-Light.ttf"  crossorigin="anonymous">
   <!-- Rubik normal (regular) 400-->
-  <link rel="preload" type="font/ttf" href="./font/Rubik-Regular.ttf" crossorigin="anonymous">
+  <link rel="preload" type="font/ttf" as="font" href="./font/Rubik-Regular.ttf" crossorigin="anonymous">
   <!-- Rubik medium 500-->
-  <link rel="preload" type="font/ttf" href="./font/Rubik-Medium.ttf" crossorigin="anonymous">
+  <link rel="preload" type="font/ttf" as="font" href="./font/Rubik-Medium.ttf" crossorigin="anonymous">
 
   <!-- Linking CSS files -->
    <!-- Reset CSS file -->
@@ -31,12 +31,29 @@
 </head>
 <body>
 
-  Report for
-  Jeremy Robson
+  <main class="main">
+    <article class="main-card">
+      <div class="main-card-content-wrapper">
+        <div class="main-card-info-wrapper">
+          <div class="main-card-info">
+            <img src="./images/image-jeremy.png" alt="" class="main-card-image" aria-label="hidden" width="64" height="64">
+            <div class="main-card-info-details">
+              <p class="main-card-title">Report for</p>
+              <h1 class="main-card-header">Jeremy Robson</h1>
+            </div>
+          </div>
+        </div>
+        <div class="timeframe-selector">
+          <p class="Daily timeFrameSelector" data-selected="true">Daily</p>
+          <p class="Weekly timeFrameSelector" data-selected="false">Weekly</p>
+          <p class="Monthly timeFrameSelector" data-selected="false">Monthly</p>
+        </div>
+      </div>
+    </article>
 
-  Daily
-  Weekly
-  Monthly
+  </main>
+
+
 
   Work
   5hrs <!-- daily -->
