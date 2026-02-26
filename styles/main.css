@@ -221,9 +221,27 @@ body {
   right: 0;
   bottom: 0;
   border-radius: 1.5rem;
-  background-color: var(--color-orange-300);
   z-index: -1;
   overflow: hidden;
+}
+/* Uncommon card styles */
+.work-card-wrapper {
+  background-color: var(--color-orange-300);
+}
+.play-card-wrapper {
+  background-color: var(--color-blue-300);
+}
+.study-card-wrapper {
+  background-color: var(--color-pink-400);
+}
+.exercise-card-wrapper {
+  background-color: var(--color-green-400);
+}
+.social-card-wrapper {
+  background-color: var(--color-purple-700);
+}
+.selfCare-card-wrapper {
+  background-color: var(--color-yellow-300);
 }
 .card-icon {
   position: absolute;
