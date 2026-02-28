@@ -1,0 +1,13 @@
+/* Tablet layout stlyes */
+@media (min-width: 44em) {
+  html {
+    padding: 17.3rem 7.8rem;
+  }
+  .main {
+    
+  }
+}
+
+/* Desktop layout styles */
+@media (min-width: 63em) {
+}
