@@ -191,9 +191,11 @@ html {
 /* Styling the time frame selector */
 .timeFrameSelector[data-selected="true"] {
   color: var(--color-white);
+  transition: color ease 0.5s;
 }
 .timeFrameSelector[data-selected="false"] {
   color: var(--color-purple-500);
+  transition: color ease 0.5s;
 }
 /*Styling the sections */
 .three-cards-wrapper {
