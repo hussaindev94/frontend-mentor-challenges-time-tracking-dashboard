@@ -86,8 +86,6 @@ html {
   background-color: var(--color-navy-950);
 }
 
-body {
-}
 .main {
   display: flex;
   flex-direction: column;
@@ -196,6 +194,13 @@ body {
 }
 .timeFrameSelector[data-selected="false"] {
   color: var(--color-purple-500);
+}
+/*Styling the sections */
+.three-cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-300);
 }
 
 /* Other cards common styles */

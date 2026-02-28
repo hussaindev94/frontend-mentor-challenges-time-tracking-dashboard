@@ -18,7 +18,6 @@ function appendData(data, cardItems) {
 function updateUiElements(selectedData){
     //grap all the cards:
     const cards = document.querySelectorAll(".card");
-    console.log(cards);
 
     //loop through the cards and pass the following:
     //The card title => to check with the data title.
@@ -27,20 +26,17 @@ function updateUiElements(selectedData){
         const cardTitle = card.querySelector(".card-title").textContent;
         const currentHours = card.querySelector(".current-hours .hours");
         const previusHours = card.querySelector(".last-hours .hours");
-        console.log(cardTitle, currentHours, previusHours);
         appendData(selectedData, [cardTitle, currentHours, previusHours]);
     })
 }
 //Function to grap the right data.
 function getTimeFrameData(data, timeFrameName) {
-    console.log(timeFrameName);
     const selectedTimeFrameData = data.map(dataItem => {
         return {
             title: dataItem.title,
             timeFrameData: dataItem.timeframes[timeFrameName]
         }
     });
-    console.log(selectedTimeFrameData);
     //Call the updateUiElement function and pass the returnd data to it:
     updateUiElements(selectedTimeFrameData);
 
@@ -68,7 +64,7 @@ async function fetchingData(nextTimeFrameName) {
         getTimeFrameData(data, nextTimeFrameName);
 
     } catch (error) {
-        console.log(error);
+        throw Error(error);
     }
 }
 //Function to check on the timeFrameSelector state:
@@ -97,7 +93,6 @@ function checkOnTimeFrameState(nextTimeFrame) {
 const handelClick = (event) => {
 
     const nextTimeFrame = event.target;
-    //console.log(timeFrameSelector.textContent);
     checkOnTimeFrameState(nextTimeFrame);
 }
 //There is another approch of adding event listener to the childs, but this will consume more memory.
