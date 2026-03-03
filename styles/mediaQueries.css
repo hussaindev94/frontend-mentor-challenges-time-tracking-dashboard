@@ -12,6 +12,12 @@
   .three-cards-wrapper {
     flex-direction: row;
   }
+  .all-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2.4rem;
+  }
   .card {
     width: 21rem;
     height: 21.3rem;
@@ -40,4 +46,60 @@
 
 /* Desktop layout styles */
 @media (min-width: 63em) {
+  html {
+    padding: 25.2rem 16.2rem;
+  }
+  .main {
+    flex-direction: row;
+    width: fit-content;
+  }
+  .main-card {
+    width: 25.5rem;
+    height: 52rem;
+  }
+  .main-card-content-wrapper,
+  .main-card-info-wrapper {
+    flex-shrink: 0;
+    height: 35.4rem;
+  }
+  .main-card-info {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap: 4rem;
+    width: 13.8rem;
+  }
+  .main-card-header {
+    font-size: 4rem;
+    line-height: 4.7rem;
+  }
+  .timeframe-selector {
+    flex-direction: column;
+    align-items: baseline;
+    align-self: flex-start;
+    gap: 2.1rem;
+    padding-bottom: 0.1rem;
+  }
+  .all-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.2rem;
+  }
+  .three-cards-wrapper {
+    gap: 3.2rem;
+  }
+  .card {
+    width: 25.5rem;
+    height: 24.4rem;
+  }
+  .card-info-wrapper {
+    height: 19.9rem;
+    padding: 3.2rem;
+  }
+
+  .current-hours {
+    font-size: 5.6rem;
+    line-height: 6.6rem;
+  }
 }
